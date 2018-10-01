@@ -95,14 +95,6 @@ public class QuestionnaireActivity extends AppCompatActivity {
 
     }
 
-//    public void finishActivity(){
-//
-//        prefs.edit().putBoolean(MainActivity.QUESTIONNAIRE_NOT_FINISHED, false);
-//        prefs.edit().commit();
-//
-//        finish();
-//        startActivity(new Intent(this, MainActivity.class));
-//    }
 
     public void fileHeader(){
         if(prefs.getBoolean("FirstQuestionnaireActivity", true)){
@@ -122,19 +114,19 @@ public class QuestionnaireActivity extends AppCompatActivity {
                     public void onCheckedChanged(RadioGroup group, int checkedId) {
 
                         if(checkedId == R.id.q1_b1){
-                            firstChoice = "Level 1";
+                            firstChoice = "Very miserable";
                         }
                         else if(checkedId == R.id.q1_b2){
-                            firstChoice = "Level 2";
+                            firstChoice = "A little miserable";
                         }
                         else if(checkedId == R.id.q1_b3){
-                            firstChoice = "Level 3";
+                            firstChoice = "Normal";
                         }
                         else if(checkedId == R.id.q1_b4){
-                            firstChoice = "Level 4";
+                            firstChoice = "A little pleased";
                         }
                         else if(checkedId == R.id.q1_b5){
-                            firstChoice = "Level 5";
+                            firstChoice = "Very pleased";
                         }
                     }
                 });
@@ -147,19 +139,19 @@ public class QuestionnaireActivity extends AppCompatActivity {
                     public void onCheckedChanged(RadioGroup group, int checkedId) {
 
                         if(checkedId == R.id.q2_b1){
-                            secondChoice = "Level 1";
+                            secondChoice = "Very sleepy";
                         }
                         else if(checkedId == R.id.q2_b2){
-                            secondChoice = "Level 2";
+                            secondChoice = "A little sleepy";
                         }
                         else if(checkedId == R.id.q2_b3){
-                            secondChoice = "Level 3";
+                            secondChoice = "Normal";
                         }
                         else if(checkedId == R.id.q2_b4){
-                            secondChoice = "Level 4";
+                            secondChoice = "A little aroused";
                         }
                         else if(checkedId == R.id.q2_b5){
-                            secondChoice = "Level 5";
+                            secondChoice = "Very aroused";
                         }
                     }
                 });
@@ -177,6 +169,10 @@ public class QuestionnaireActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "Please do not press the back button", Toast.LENGTH_SHORT).show();
+    }
 
     public void finishActivity(){
 

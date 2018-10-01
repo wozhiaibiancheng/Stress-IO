@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.awareframework:aware-core-3.9.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aware-core-3.9.8.aar/6fbe740e809fea55af2b0746b021c047/jars/libs/mqtt-client-0.4.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aware-core-3.9.8.aar/6fbe740e809fea55af2b0746b021c047/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aware-core-3.9.8.aar/6fbe740e809fea55af2b0746b021c047/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

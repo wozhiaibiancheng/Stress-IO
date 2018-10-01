@@ -32,13 +32,6 @@
         <activity android:name=".QuestionnaireActivity"></activity>
         <activity android:name=".OnboardingActivity"></activity>
 
-
-        <!--<service android:name=".TypingSensorsService"-->
-            <!--android:enabled="true"-->
-            <!--android:label="TypingSensorsService"/>-->
-        <!--<receiver android:name=".TypingSensorsService$BatterySensor"-->
-            <!--android:enabled="true"/>-->
-
         <service
             android:name=".notification.MyJobService"
             android:label="Word service"

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nisrulz:easydeviceinfo-base-2.4.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/easydeviceinfo-base-2.4.1.aar/c8a06fe1730e1c537fec58c86fa7921b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/easydeviceinfo-base-2.4.1.aar/c8a06fe1730e1c537fec58c86fa7921b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nisrulz/easydeviceinfo-base/2.4.1/49cf91207f8407b0d8d669c2bd55110fd834f553/easydeviceinfo-base-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
